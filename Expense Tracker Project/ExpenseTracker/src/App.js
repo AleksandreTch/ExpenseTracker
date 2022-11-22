@@ -1,9 +1,8 @@
-import ExpenseItem from "./components/Expenses/ExpenseItem/ExpenseItem";
-import Card from "./components/UI/Card/Card";
+import React from 'react';
 import NewExpense from "./components/NewExpense/NewExpense";
-import ExpensesFilter from "./components/Expenses/ExpensesFilter/ExpensesFilter";
+import ExpensesList from './components/Expenses/ExpensesList/ExpensesList';
 
-const App = () => {
+const App = (props) => {
   const expenses = [
     { 
       id:'e1',
@@ -39,14 +38,7 @@ const App = () => {
   return (
     <div>
       <NewExpense onAddExpense={addExpenseHandler}/>
-      <Card className='expenses'>
-      <ExpensesFilter/>
-      {expenses.map((data) => <ExpenseItem 
-      key={data.id} 
-      title={data.title}
-      amount={data.amount}
-      date={data.date}/>)}
-      </Card>
+      <ExpensesList items={expenses}/>
     </div>
   );
 }
