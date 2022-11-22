@@ -1,6 +1,7 @@
 import ExpenseItem from "./components/Expenses/ExpenseItem/ExpenseItem";
 import Card from "./components/UI/Card/Card";
 import NewExpense from "./components/NewExpense/NewExpense";
+import ExpensesFilter from "./components/Expenses/ExpensesFilter/ExpensesFilter";
 
 const App = () => {
   const expenses = [
@@ -39,6 +40,7 @@ const App = () => {
     <div>
       <NewExpense onAddExpense={addExpenseHandler}/>
       <Card className='expenses'>
+      <ExpensesFilter/>
       {expenses.map((data) => <ExpenseItem 
       key={data.id} 
       title={data.title}
