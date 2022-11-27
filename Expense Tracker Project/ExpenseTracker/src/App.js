@@ -40,9 +40,7 @@ const App = () => {
       <NewExpense onAddExpense={addExpenseHandler}/>
       <ExpensesList items={expenses}/>
       <div className='designer-tag'>
-          <a href='http://www.alextch.com'>
             <h2> Designed by AlexTch </h2>
-          </a>
       </div>
     </div>
   );
