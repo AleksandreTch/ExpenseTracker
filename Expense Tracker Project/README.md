@@ -36,6 +36,6 @@ No Data Inserted for selected year.
 ## P.S:
 
 I'm currently looking for a job, feel free to reach out to me at: contact@alextch.com.
-also feel free to use any materials from this project. If you do so please give me some credit. 
+also feel free to use any materials from this project. 
 
 AlexTch 
