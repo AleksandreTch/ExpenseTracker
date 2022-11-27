@@ -40,7 +40,7 @@ const App = () => {
       <ExpensesList items={expenses}/>
       <div className='designer-tag'>
           <a href='http://www.alextch.com' target='_blank'>
-            <h2>Designed by AlexTch</h2>
+            <h2> Designed by AlexTch </h2>
           </a>
       </div>
     </div>
