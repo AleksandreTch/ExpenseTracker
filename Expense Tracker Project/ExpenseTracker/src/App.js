@@ -7,19 +7,19 @@ const PLACEHOLDER_EXPENSES = [
   { 
     id:'e1',
     title: "Title", 
-    amount: 99.99, 
+    amount: 0, 
     date: new Date(2020, 0, 1) 
   },
   { 
     id:'e2',
-    title: "Title 3", 
-    amount: 99.99, 
+    title: "Title", 
+    amount: 0, 
     date: new Date(2021, 0, 1) 
   },
   { 
     id:'e3',
-    title: "Title 6", 
-    amount: 99.99, 
+    title: "Title", 
+    amount: 0, 
     date: new Date(2022, 0, 1) 
   },
 ];
