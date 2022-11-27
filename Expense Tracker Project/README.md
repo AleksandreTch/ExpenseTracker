@@ -2,5 +2,5 @@
 
 Expenses Tracker: 
 
-https://phenomenal-basbousa-3f1630.netlify.app
+https://fabulous-cranachan-f30d93.netlify.app
 
