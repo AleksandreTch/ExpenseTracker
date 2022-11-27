@@ -2,5 +2,5 @@
 
 Expenses Tracker: 
 
-https://super-kelpie-b8cbf8.netlify.app
+https://glittering-kangaroo-99a6a2.netlify.app
 
