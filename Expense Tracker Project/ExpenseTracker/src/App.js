@@ -2,6 +2,7 @@ import React, {useState} from 'react';
 import NewExpense from "./components/NewExpense/NewExpense";
 import ExpensesList from './components/Expenses/ExpensesList/ExpensesList';
 
+
 const PLACEHOLDER_EXPENSES = [
   { 
     id:'e1',
@@ -39,7 +40,7 @@ const App = () => {
       <NewExpense onAddExpense={addExpenseHandler}/>
       <ExpensesList items={expenses}/>
       <div className='designer-tag'>
-          <a href='http://www.alextch.com' target='_blank'>
+          <a href='http://www.alextch.com'>
             <h2> Designed by AlexTch </h2>
           </a>
       </div>
